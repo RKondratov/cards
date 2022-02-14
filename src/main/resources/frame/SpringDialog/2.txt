@@ -1,0 +1,7 @@
+В чем разница между @Controller и @RestController.
+|
+@RestController = @Controller + @ResponseBody.
+@RestController превращает помеченный класс в Spring-бин.
+Этот бин для конвертации входящих/исходящих данных, использует Jackson message converter.
+Как правило, целевые данные представлены в json или xml.
+|

@@ -1,0 +1,8 @@
+Способы создания стримов в Java?
+|
+1. Создание стрима из коллекции: collection.stream();
+2. Создание стрима из значений: Stream.of("1", "2", "3");
+3. Создание стрима из массива: Arrays.stream(array) ;
+4. Создание стрима из файла: Files.stream(Path.get("file.txt"));
+5. Создание параллельного стрима: collection.parallelStream() .
+|

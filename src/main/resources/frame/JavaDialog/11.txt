@@ -1,0 +1,8 @@
+Дополнительные методы числовых Stream'ов.
+|
+1. sum() - возвращает сумму всех чисел.
+2. average() - возвращает среднее арифметическое всех чисел.
+3. mapToObj(Function <T> function) - преобразует числовой стрим в объектный.
+
+1+2 collection.stream().mapToInt((s)->Integer.parseInt(s)).sum();
+|

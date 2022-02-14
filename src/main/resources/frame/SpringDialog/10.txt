@@ -1,0 +1,8 @@
+DI - Dependency Injection
+|
+Dependency Injection - внедрение зависимостей. Это одна из реализаций принципа IoC. DI - эо механизм передачи классу его зависимостей.
+Существуют несколько видов DI -
+- через конструктор (Constructor Injection),
+- через метод (Method Injection),
+- через свойство (Property Injection)
+|

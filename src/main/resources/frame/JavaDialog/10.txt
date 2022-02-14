@@ -1,0 +1,12 @@
+Терминальные методы работы со Stream'ами.
+|
+1. findFirst()/findAny() - возвращает первый/любой элемент стрима (типа Optional).
+2. collect(Collector<? super T,A,R> collector>) -  представление результатов в виде
+коллекции/др структур данных.
+3. count() - количество элементов в стриме.
+4. min(Comparator<T> comparator) / max(Comparator<T> comparator) - возвращает мин/макс элемент стрима.
+5. forEach(Consumer) - применяет функцию к каждому объекту стрима.
+6. toArray() - возвращает массив значений стрима.
+7. anyMatch(Predicate<T> predicate) - возвращает true, если хоть 1 элемент соответствует условию.
+8. allMatch(Predicate<T> predicate) - возвращает true, если все элементы соответствуют условию.
+|

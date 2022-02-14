@@ -1,0 +1,10 @@
+4 способа конфигурирования контекста Spring?
+|
+Spring Container получает инструкции какие объекты инстанциировать и как их конфигурировать
+через метаданные -> Метаданные получаю 4 способами:
+1) Xml конфигурация - используется ClassPathXmlApplicationContext("context.xml");
+2) Конфигурация через аннотации с указанием пакета для сканирования - AnnotationConfigApplicationContext("pakage.name");
+3) Конфигурация через аннотации с указанием класса (или массивов классов) помеченного аннотацией @Configuration -
+AnnotationConfigApplicationContext(JavaConfig.class). Этот способ называется JavaConfig;
+4) Groovy конфигурация - GenericGroovyApplicationContext("context.groovy")
+|
